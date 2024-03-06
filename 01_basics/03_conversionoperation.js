@@ -28,8 +28,27 @@ let booleanIsLoggedIn= Boolean(isLoggedIn)
 
 let somenumber=33;
 let StringNumber= String(somenumber);
-console.log(StringNumber);// output=>33
+// console.log(StringNumber);// output=>33
 // how to check this number is string or not
-console.log(typeof StringNumber);// output=>string, so this number convert in a string
+// console.log(typeof StringNumber);// output=>string, so this number convert in a string
 
 //mostly browser gives string value
+
+//****************operation*******************/
+ let value=3
+ let negvalue=-value
+ console.log(negvalue);//output=>-3
+
+ /*
+ console.log(2+2)
+ console.log(2-2)
+ console.log(2*2)
+ console.log(2**2)
+ console.log(2/2)
+ console.log(2%2)
+ */
+
+ let str1="hi"
+ let str2="swechha"
+ let s3= str1+str2
+ console.log(s3);
