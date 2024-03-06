@@ -1,0 +1,35 @@
+//let score=33
+//let score="33ABCD
+//let score= null// output is 0 
+//let score=undefined//output is NaN
+//let score=true// output is 1
+
+// console.log(typeof score);
+// console.log(typeof (score));// you can use as a function
+
+// let valueInNumber= Number(score);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);// output is NaN
+
+
+//"33"=>33
+//"33abcd"=>NaN(NOT A Number) nan ka type number hai
+//true convert 1, false=>0
+
+
+//let isLoggedIn=1//output is true
+let isLoggedIn=""//output-false
+let booleanIsLoggedIn= Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
+
+//1=>true; 0=>flase
+//""=>false
+//"swechha"=>true
+
+let somenumber=33;
+let StringNumber= String(somenumber);
+console.log(StringNumber);// output=>33
+// how to check this number is string or not
+console.log(typeof StringNumber);// output=>string, so this number convert in a string
+
+//mostly browser gives string value
