@@ -49,6 +49,18 @@ let StringNumber= String(somenumber);
  */
 
  let str1="hi"
- let str2="swechha"
+ let str2=" swechha"
  let s3= str1+str2
  console.log(s3);
+//  console.log("1"+2); ->12
+//  console.log(1+"2"); ->12
+//  console.log("1"+2+2);->122
+// console.log(1 + 1 +"2");->22
+
+// console.log(true); -> true
+// console.log(+true);->1 it's a preincrement but (true+) not allowed
+
+// ************************prefix and postfix*****************************************
+let gamecounter=100
+gamecounter++;// output 101 ++gamecounter(output->101)
+console.log(gamecounter);
